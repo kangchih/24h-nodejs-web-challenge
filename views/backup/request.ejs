@@ -1,0 +1,13 @@
+<%- include('../includes/head.ejs') %>
+    </head>
+
+    <body>
+        <%- include('../includes/navigation.ejs') %>
+        <main class="centered">
+            <h1><%= backup.email %></h1>
+            <hr>
+            <h2><%= backup.status %></h2>
+            <h3>Last-Modified</h3>
+            <h3><%= backup.ts %></h3>
+        </main>
+        <%- include('../includes/end.ejs') %>

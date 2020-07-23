@@ -1,0 +1,32 @@
+.backup-form {
+    width: 20rem;
+    max-width: 90%;
+    margin: auto;
+    display: block;
+}
+
+.backup-item {
+    width: 20rem;
+    max-width: 95%;
+    margin: 1rem;
+}
+
+.backup__email {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.backup__status {
+    text-align: center;
+    color: #4d4d4d;
+    margin-bottom: 0.5rem;
+}
+.backup__status_select {
+    text-align: center;
+    color: #4d4d4d;
+    margin-bottom: 0.5rem;
+}
+
+.backup__timestamp {
+    text-align: center;
+}
